@@ -1,105 +1,67 @@
-Rajdhani Express Delay Analysis 🚆
-Overview
+# Rajdhani Express Delay Analysis 🚆
 
-This project analyzes Rajdhani Express train delays using real-world Indian Railways data.
-The goal is to understand delay patterns, peak delay periods, and high-risk routes through data analysis and visualization.
+## Overview
+This project analyzes **Rajdhani Express train delays** using real-world Indian Railways data.
 
-The project demonstrates practical data cleaning, exploratory data analysis (EDA), and insight generation using Python.
+The goal is to understand **delay patterns, peak delay periods, and high-risk routes** through structured data analysis and visualization.
 
-Objective
+This project demonstrates practical experience in **data cleaning, exploratory data analysis (EDA), and insight generation** using Python.
 
-Analyze historical Rajdhani Express delay data
+---
 
-Identify delay trends across routes, time periods, and regions
+## Objective
+- Analyze historical Rajdhani Express delay data  
+- Identify delay trends across **routes, time periods, and regions**  
+- Extract actionable insights highlighting **operational inefficiencies**
 
-Extract actionable insights that highlight operational inefficiencies
+---
 
-Dataset
+## Dataset
+- **Source:** Publicly available Indian Railways delay data  
+- **Format:** CSV files  
 
-Source: Publicly available Indian Railways delay data
+---
 
-Format: CSV files
+## Tools & Technologies
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib  
+- **Environment:** Jupyter Notebook  
+- **Version Control:** Git & GitHub  
 
-Contents include:
+---
 
-Train routes
+## Project Structure
 
-Delay duration
-
-Date and time information
-
-Station-level details
-
-Dataset files are stored in the data/ directory.
-
-Tools & Technologies
-
-Programming Language: Python
-
-Libraries: Pandas, NumPy, Matplotlib
-
-Environment: Jupyter Notebook
-
-Version Control: Git & GitHub
+rajdhani-delay-analysis/
+│
+├── data/
+│ └── delay datasets
+│
+├── notebook/
+│ └── train_data.ipynb
+│
+├── README.md
 
 
-Methodology
+---
 
-Data Cleaning
+## Key Insights
+- Certain routes experience **consistently higher delays**
+- Delays increase during **specific time windows**
+- Route-level analysis highlights **high-risk corridors**
 
-Removed inconsistencies and handled missing values
+---
 
-Standardized date/time formats
+## Future Improvements
+- Build predictive models for delay estimation  
+- Include external factors such as weather and seasonality  
+- Create interactive dashboards for visualization  
 
-Prepared analysis-ready datasets
+---
 
-Exploratory Data Analysis (EDA)
+## Author
+**Yuvraj Chaudhary**  
+Data Science Intern | Python | Data Analysis & EDA  
 
-Analyzed delay distribution across routes
-
-Studied delay patterns by time and region
-
-Compared peak vs non-peak delay periods
-
-Visualization
-
-Created clear plots to highlight delay trends
-
-Used charts to support data-driven conclusions
-
-Key Insights
-
-Certain routes consistently experience higher average delays
-
-Delays increase significantly during specific time windows
-
-Route-level analysis reveals high-risk corridors prone to operational inefficiencies
-
-Results
-
-The analysis provides a clear view of:
-
-Where delays are most frequent
-
-When delays are most severe
-
-Which routes need operational attention
-
-These insights can support planning, scheduling, and optimization decisions.
-
-Future Improvements
-
-Add predictive modeling to estimate expected delays
-
-Incorporate weather and seasonal data
-
-Build a simple dashboard for interactive analysis
-
-Author
-
-Yuvraj Chaudhary
-Data Science Intern | Python | Data Analysis & EDA
-
-GitHub: https://github.com/yuvrajchy
-
-LinkedIn: https://www.linkedin.com/in/yuvrajchaudhary
+GitHub: https://github.com/yuvrajchy   
+LinkedIn: https://www.linkedin.com/in/yuvrajchaudhary   
